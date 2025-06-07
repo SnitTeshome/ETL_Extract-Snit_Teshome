@@ -62,8 +62,6 @@
 ---
 ## *Repository Structure*
 
-### Repository Structure
-
 ```plaintext
 ETL_Extract_Snit_Teshome/
 ├── etl_extract.ipynb                        # Jupyter Notebook with ETL implementation
