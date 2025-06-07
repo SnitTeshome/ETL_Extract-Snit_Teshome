@@ -62,24 +62,20 @@
 ---
 ## *Repository Structure*
 
+### Repository Structure
+
+```plaintext
 ETL_Extract_Snit_Teshome/
+├── etl_extract.ipynb                        # Jupyter Notebook with ETL implementation
+├── car_sales_data_may_2025.csv             # Dataset file
+├── Out_put_Extraction/                     # Folder for extraction outputs
+│   ├── full_extraction_output.csv          # Output of full extraction (saved CSV)
+│   ├── incremental_extraction_output.csv   # Output of incremental extraction (saved CSV)
+├── last_extraction.txt                     # Timestamp for incremental extraction
+├── README.md                               # Project documentation
+└── .gitignore                              # Git ignore file
 
-├── etl_extract.ipynb                  # Jupyter Notebook with ETL implementation
-
-├── car_sales_data_may_2025.csv       # Dataset file
-
-├── Out_put_Extraction/                # Folder for extraction outputs
-
-│      ├── last_extraction.txt                # Timestamp for incremental extraction
- ├── full_extraction_output.csv    # Output of full extraction (saved CSV)
-
-│       ├── incremental_extraction_output.csv  # Output of incremental extraction (saved CSV)
-
-├── last_extraction.txt                # Timestamp for incremental extraction
-
-├── README.md                         # Project documentation
-
-└── .gitignore                       # Git ignore file
+```
 
 
 ## *How to Reproduce*
@@ -91,7 +87,6 @@ ETL_Extract_Snit_Teshome/
   - ***Section 1:*** *Perform full extraction of all data*  
   - ***Section 2:*** *Perform incremental extraction based on last extraction timestamp*  
   - ***Section 3:*** *Update the extraction timestamp after incremental extraction*  
-
 ---
 ## *Repository URL*
 
