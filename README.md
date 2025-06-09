@@ -59,7 +59,7 @@
 4. *Dataset used:* `car_sales_data_may_2025.csv`  
 5. *Track extraction checkpoints via* `last_extraction.txt`
 
----
+
 ## *Repository Structure*
 
 ```plaintext
@@ -74,6 +74,10 @@ ETL_Extract_Snit_Teshome/
 └── .gitignore                              # Git ignore file
 
 ```
+---
+ `04_last_extraction.txt` is tracked once and then ignored using `.gitignore` and `git update-index` to prevent unnecessary commits while keeping it in the repo.
+
+---
 
 
 ## *How to Reproduce*

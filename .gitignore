@@ -8,4 +8,4 @@ __pycache__/
 *.log
 
 # Ignore SQLite database files
-*.sqlite
+*.sqlitegit update-index --assume-unchanged last_extraction.txt
