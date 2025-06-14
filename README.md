@@ -38,12 +38,11 @@
 
 ## *Project Objective*
 
-*Reinforce understanding of **Full Extraction** and **Incremental Extraction** by creating an ETL notebook that performs both extraction types on a realistic dataset, capturing only new or changed data incrementally.*
+*Reinforce understanding of **Full Extraction** and **Incremental Extraction**  and also  **Full Transformation** and **Incremental Transformation** by creating an ETL notebook that performs both extraction and transform types on a realistic dataset, capturing only new or changed data incrementally.*
 
 ---
 
 ## *Tools & Technologies*
-
 - *Python*  
 - *pandas*  
 - *NumPy*  
@@ -67,9 +66,12 @@ ETL_Extract_Snit_Teshome/
 ├── etl_extract.ipynb                        # Jupyter Notebook with ETL implementation
 ├── car_sales_data_may_2025.csv             # Dataset file
 ├── Out_put_Extraction/                     # Folder for extraction outputs
-│   ├── full_extraction_output.csv          # Output of full extraction (saved CSV)
-│   ├── incremental_extraction_output.csv   # Output of incremental extraction (saved CSV)
+│   ├── car_sales_full_extraction_output.csv          # Output of full extraction (saved CSV)
+│   ├── car_sales_incremental_extraction_output.csv    # Output of incremental extraction (saved CSV)
 ├── last_extraction.txt                     # Timestamp for incremental extraction
+├── Out_put_Transformaion/                     # Folder for extraction outputs
+│   ├── transformed_full_output.csv          # Output of full extraction (saved CSV)
+│   ├──transformed_incremental.csv.csv
 ├── README.md                               # Project documentation
 └── .gitignore                              # Git ignore file
 
