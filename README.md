@@ -72,6 +72,10 @@ ETL_Extract_Snit_Teshome/
 ├── Out_put_Transformaion/                     # Folder for extraction outputs
 │   ├── transformed_full_output.csv          # Output of full extraction (saved CSV)
 │   ├──transformed_incremental.csv.csv
+├── etl_load.ipynb              #Notebook focuses on loading.     
+├── loaded_data/                     # Folder for extraction outputs
+│   ├── full_data.parquet         # Output of full extraction (saved CSV)
+│   ├──incremental_data.parquet
 ├── README.md                               # Project documentation
 └── .gitignore                              # Git ignore file
 
@@ -92,6 +96,41 @@ ETL_Extract_Snit_Teshome/
   - ***Section 2:*** *Perform incremental extraction based on last extraction timestamp*  
   - ***Section 3:*** *Update the extraction timestamp after incremental extraction*  
 ---
+## *Lab 5 – Load Section*
+
+_In this section, the transformed car sales records were loaded and saved in an optimized format for storage and future analysis._
+
+## *Loading Method Used*  
+_The data was loaded using Python's `pandas` library. The transformed CSV files were read and then converted to Parquet format, which offers efficient storage and is well-suited for analytical workflows._
+
+## *Data Files Processed* 
+- _`transformed_full.csv` was converted to `full_data.parquet`._  
+- _`transformed_incremental.csv` was converted to `incremental_data.parquet`._
+## *Sample Code*
+
+```python
+import pandas as pd
+
+# Full transformed data
+full_df = pd.read_csv("transformed_full.csv")
+full_df.to_parquet("full_data.parquet", index=False)
+
+# Incremental transformed data
+incremental_df = pd.read_csv("transformed_incremental.csv")
+incremental_df.to_parquet("incremental_data.parquet", index=False)
+
+# Verifying the Parquet files
+pd.read_parquet("full_data.parquet").head()
+pd.read_parquet("incremental_data.parquet").head()
+```
+
+## *Output Location for Loading*
+
+_The output files were saved in Parquet format within the current repository directory. These files are ready to be used for downstream analytics, integration into data platforms, or long-term storage alongside this project._
+
+- _`full_data.parquet`_  
+- _`incremental_data.parquet`_
+
 ## *Repository URL*
 
 [https://github.com/SnitTeshome/ETL_Extract-Snit_Teshome](https://github.com/SnitTeshome/ETL_Extract-Snit_Teshome)
