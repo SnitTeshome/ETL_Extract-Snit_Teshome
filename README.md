@@ -197,30 +197,30 @@ _The output files were saved in Parquet format within the current repository dir
 ## *Output for Extraction*
 
 ### *Full Extraction*
+## *Output for Extraction*
+
+### *Full Extraction*
 ![Full Extraction Preview](image.png)
 
 ### *Incremental Extraction*
-## *Full Extraction*
-![Full Extraction Preview](image.png)
-
-### *Incremental Extraction*
-![Incremental Extraction Preview](Output_images/image-1.png)
+![Incremental Extraction Preview](image-1.png)
 
 ---
 
 ## *Output for Transformation*
 
 ### 1. *Data Cleaning*
-![Missing Value Handling](image-3.png)
+![Alt text: Missing Value Handling](image-3.png)
 
 ### 2. *Categorize Mileage*
-![Mileage Categorization](image-4.png)
+![Alt text: Mileage Categorization](image-4.png)
 
 ### 3. *Enrichment*
-![Feature Enrichment Output](image-5.png)
+![Alt text: Feature Enrichment Output](image-5.png)
 
 ### 4. *Key Restructuring*
-![Surrogate Key Restructuring](image-6.png)
+![Alt text: Surrogate Key Restructuring](image-6.png)
+
 
 
 ---
