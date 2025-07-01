@@ -1,187 +1,193 @@
 sales_id,customer,date,car_make,car_model,year,mileage,price,payment_type,last_updated,mileage_bin,vehicle_age
-1,CarMax,2025-04-20,Honda,Civic,2017,100265.0,10506,Credit,2025-04-20 23:38:00,Very High,8
-2,Penske Automotive,2025-04-20,Honda,Accord,2019,82213.0,17360,Credit,2025-04-20 23:44:00,High,6
-3,Enterprise Holdings,2025-04-20,Ford,Fusion,2020,45168.0,10519,Credit,2025-04-20 15:33:00,Medium,5
-4,Penske Automotive,2025-04-21,Honda,Accord,2016,46693.0,24922,Credit,2025-04-21 11:03:00,Medium,9
-5,AutoNation,2025-04-21,Hyundai,Tucson,2023,115599.0,5643,Cash,2025-04-21 20:02:00,Very High,2
-6,Penske Automotive,2025-04-21,Chevrolet,Malibu,2023,51144.0,21237,Credit,2025-04-21 20:06:00,Medium,2
-7,CarMax,2025-04-21,Chevrolet,Malibu,2017,107794.0,20839,Credit,2025-04-21 02:19:00,Very High,8
-8,CarMax,2025-04-21,Chevrolet,Equinox,2022,,7274,Credit,2025-04-21 03:19:00,,3
-9,Manheim,2025-04-21,Honda,Civic,2015,71751.0,18291,Unknown,2025-04-21 21:13:00,High,10
-10,Sonic Automotive,2025-04-22,Chevrolet,Malibu,2022,,14860,Loan,2025-04-22 09:46:00,,3
-11,AutoNation,2025-04-22,Ford,Fusion,2017,19179.0,6851,Loan,2025-04-22 05:53:00,Low,8
-12,AutoNation,2025-04-22,Hyundai,Tucson,2018,61838.0,22190,Credit,2025-04-22 12:37:00,High,7
-13,CarMax,2025-04-22,Ford,Escape,2020,40754.0,16130,Credit,2025-04-22 06:10:00,Medium,5
-14,CarMax,2025-04-22,Hyundai,Santa Fe,2020,99492.0,22070,Credit,2025-04-22 07:00:00,Very High,5
-15,Hertz Global Holdings,2025-04-23,Chevrolet,Cruze,2023,,20339,Loan,2025-04-23 05:56:00,,2
-16,CarMax,2025-04-23,Ford,Focus,2017,61688.0,11734,Credit,2025-04-23 17:28:00,High,8
-17,Enterprise Holdings,2025-04-23,Toyota,Camry,2018,82153.0,19290,Loan,2025-04-23 17:04:00,High,7
-18,Copart,2025-04-24,Chevrolet,Malibu,2018,33181.0,24215,Loan,2025-04-24 21:15:00,Medium,7
-19,Penske Automotive,2025-04-24,Chevrolet,Cruze,2018,68727.0,22990,Cash,2025-04-24 23:32:00,High,7
-20,CarMax,2025-04-24,Toyota,Corolla,2023,26982.0,15339,Credit,2025-04-24 11:13:00,Low,2
-21,Penske Automotive,2025-04-24,Chevrolet,Equinox,2021,48037.0,13781,Loan,2025-04-24 06:47:00,Medium,4
-22,Sonic Automotive,2025-04-25,Honda,Civic,2018,,20322,Cash,2025-04-25 15:57:00,,7
-23,Penske Automotive,2025-04-25,Hyundai,Tucson,2021,99950.0,8880,Cash,2025-04-25 04:05:00,Very High,4
-24,Lithia Motors,2025-04-25,Honda,Accord,2021,26770.0,20014,Cash,2025-04-25 08:01:00,Low,4
-25,Enterprise Holdings,2025-04-25,Chevrolet,Equinox,2023,60640.0,9936,Cash,2025-04-25 18:09:00,High,2
-26,Lithia Motors,2025-04-25,Hyundai,Santa Fe,2017,51245.0,10504,Cash,2025-04-25 14:10:00,Medium,8
-27,Unknown,2025-04-26,Toyota,RAV4,2017,18848.0,7051,Loan,2025-04-26 08:19:00,Low,8
-28,Unknown,2025-04-26,Chevrolet,Malibu,2015,67154.0,18157,Credit,2025-04-26 18:47:00,High,10
-29,Hertz Global Holdings,2025-04-26,Hyundai,Tucson,2015,106250.0,16268,Loan,2025-04-26 21:51:00,Very High,10
-30,CarMax,2025-04-27,Hyundai,Tucson,2022,23068.0,15485,Cash,2025-04-27 11:39:00,Low,3
-31,AutoNation,2025-04-27,Chevrolet,Malibu,2020,77090.0,10584,Credit,2025-04-27 14:58:00,High,5
-32,Avis Budget Group,2025-04-27,Toyota,Camry,2016,29903.0,13274,Cash,2025-04-27 18:36:00,Low,9
-33,Unknown,2025-04-27,Toyota,RAV4,2020,18212.0,14800,Unknown,2025-04-27 12:03:00,Low,5
-34,Penske Automotive,2025-04-27,Honda,CR-V,2022,36310.0,10514,Credit,2025-04-27 14:05:00,Medium,3
-35,Manheim,2025-04-27,Toyota,RAV4,2018,20672.0,11832,Credit,2025-04-27 06:08:00,Low,7
-36,Manheim,2025-04-28,Chevrolet,Malibu,2022,34858.0,24513,Loan,2025-04-28 05:47:00,Medium,3
-37,Avis Budget Group,2025-04-28,Hyundai,Elantra,2017,100024.0,10742,Cash,2025-04-28 07:13:00,Very High,8
-38,AutoNation,2025-04-28,Honda,Accord,2020,72825.0,23157,Cash,2025-04-28 15:40:00,High,5
-39,Sonic Automotive,2025-04-28,Chevrolet,Malibu,2017,64296.0,22760,Unknown,2025-04-28 07:47:00,High,8
-40,AutoNation,2025-04-28,Chevrolet,Equinox,2021,70315.0,14596,Loan,2025-04-28 21:26:00,High,4
-41,Unknown,2025-04-29,Ford,Fusion,2017,70024.0,6892,Cash,2025-04-29 03:50:00,High,8
-42,Manheim,2025-04-29,Chevrolet,Cruze,2015,17565.0,22632,Cash,2025-04-29 10:25:00,Low,10
-43,Enterprise Holdings,2025-04-29,Honda,CR-V,2019,65834.0,18998,Credit,2025-04-29 07:11:00,High,6
-44,CarMax,2025-04-30,Toyota,RAV4,2021,27608.0,12307,Loan,2025-04-30 03:15:00,Low,4
-45,Sonic Automotive,2025-04-30,Hyundai,Santa Fe,2019,92490.0,10661,Unknown,2025-04-30 00:35:00,Very High,6
-46,Manheim,2025-04-30,Hyundai,Elantra,2018,41009.0,23447,Unknown,2025-04-30 18:26:00,Medium,7
-47,Hertz Global Holdings,2025-04-30,Chevrolet,Equinox,2019,107907.0,22701,Cash,2025-04-30 19:07:00,Very High,6
-48,CarMax,2025-05-01,Chevrolet,Cruze,2023,26827.0,16978,Loan,2025-05-01 14:14:00,Low,2
-49,Manheim,2025-05-01,Toyota,Camry,2022,,23101,Credit,2025-05-01 03:36:00,,3
-50,CarMax,2025-05-01,Honda,CR-V,2018,43737.0,16889,Credit,2025-05-01 12:18:00,Medium,7
-51,CarMax,2025-05-01,Toyota,RAV4,2019,13888.0,5962,Credit,2025-05-01 00:26:00,Low,6
-52,AutoNation,2025-05-02,Hyundai,Santa Fe,2021,65792.0,15814,Credit,2025-05-02 10:51:00,High,4
-53,Unknown,2025-05-02,Toyota,Camry,2018,96565.0,23999,Cash,2025-05-02 22:52:00,Very High,7
-54,CarMax,2025-05-02,Hyundai,Elantra,2020,,8147,Cash,2025-05-02 01:12:00,,5
-55,Avis Budget Group,2025-05-02,Honda,Civic,2017,94203.0,15074,Cash,2025-05-02 18:47:00,Very High,8
-56,Hertz Global Holdings,2025-05-02,Chevrolet,Equinox,2020,100340.0,22970,Credit,2025-05-02 07:57:00,Very High,5
-57,Manheim,2025-05-03,Hyundai,Elantra,2018,80939.0,20622,Cash,2025-05-03 16:58:00,High,7
-58,Enterprise Holdings,2025-05-03,Honda,Accord,2018,117116.0,13838,Credit,2025-05-03 19:20:00,Very High,7
-59,Enterprise Holdings,2025-05-03,Honda,Civic,2015,29255.0,20114,Credit,2025-05-03 05:34:00,Low,10
-60,Lithia Motors,2025-05-03,Hyundai,Santa Fe,2021,107656.0,22991,Loan,2025-05-03 17:18:00,Very High,4
-61,Penske Automotive,2025-05-03,Toyota,Camry,2017,22703.0,19761,Cash,2025-05-03 23:04:00,Low,8
-62,AutoNation,2025-05-04,Hyundai,Elantra,2023,20002.0,22523,Cash,2025-05-04 22:12:00,Low,2
-63,Sonic Automotive,2025-05-04,Honda,Civic,2023,82682.0,23130,Loan,2025-05-04 13:27:00,High,2
-64,Unknown,2025-05-04,Hyundai,Tucson,2020,104229.0,7604,Cash,2025-05-04 07:39:00,Very High,5
-65,Unknown,2025-05-05,Hyundai,Elantra,2021,68507.0,5456,Credit,2025-05-05 00:21:00,High,4
-66,AutoNation,2025-05-05,Chevrolet,Equinox,2021,110958.0,14706,Cash,2025-05-05 20:27:00,Very High,4
-67,Unknown,2025-05-05,Honda,Accord,2016,,21037,Loan,2025-05-05 05:13:00,,9
-68,Avis Budget Group,2025-05-05,Toyota,Camry,2023,47356.0,22157,Loan,2025-05-05 08:19:00,Medium,2
-69,Lithia Motors,2025-05-05,Toyota,RAV4,2017,97882.0,11896,Loan,2025-05-05 07:35:00,Very High,8
-70,Unknown,2025-05-06,Hyundai,Tucson,2016,67933.0,24784,Loan,2025-05-06 08:16:00,High,9
-71,Sonic Automotive,2025-05-06,Toyota,RAV4,2017,17023.0,19233,Cash,2025-05-06 04:25:00,Low,8
-72,Sonic Automotive,2025-05-06,Toyota,Corolla,2016,,5417,Unknown,2025-05-06 07:56:00,,9
-73,Lithia Motors,2025-05-07,Honda,CR-V,2015,76517.0,9831,Loan,2025-05-07 13:04:00,High,10
-74,Sonic Automotive,2025-05-07,Honda,Accord,2015,18143.0,21795,Loan,2025-05-07 16:41:00,Low,10
-75,CarMax,2025-05-07,Ford,Escape,2022,103359.0,7993,Credit,2025-05-07 13:36:00,Very High,3
-76,Lithia Motors,2025-05-07,Hyundai,Tucson,2020,64471.0,13380,Credit,2025-05-07 16:20:00,High,5
-77,CarMax,2025-05-07,Ford,Escape,2021,77091.0,9205,Credit,2025-05-07 23:23:00,High,4
-78,Avis Budget Group,2025-05-07,Honda,Civic,2020,56855.0,20405,Loan,2025-05-07 07:06:00,Medium,5
-79,Copart,2025-05-08,Ford,Focus,2023,94261.0,12746,Loan,2025-05-08 21:38:00,Very High,2
-80,Manheim,2025-05-08,Honda,CR-V,2022,,8998,Loan,2025-05-08 11:10:00,,3
-81,Enterprise Holdings,2025-05-08,Toyota,Corolla,2023,61300.0,13441,Loan,2025-05-08 12:59:00,High,2
-82,Copart,2025-05-08,Ford,Focus,2021,32046.0,15063,Loan,2025-05-08 04:42:00,Medium,4
-83,Copart,2025-05-08,Chevrolet,Equinox,2023,41819.0,9029,Credit,2025-05-08 08:17:00,Medium,2
-84,Avis Budget Group,2025-05-08,Hyundai,Elantra,2016,54545.0,8633,Cash,2025-05-08 15:18:00,Medium,9
-85,Unknown,2025-05-09,Toyota,Corolla,2020,66670.0,10571,Cash,2025-05-09 07:08:00,High,5
-86,Unknown,2025-05-09,Hyundai,Tucson,2019,15723.0,12240,Cash,2025-05-09 01:20:00,Low,6
-87,Unknown,2025-05-09,Chevrolet,Cruze,2022,38728.0,5913,Cash,2025-05-09 15:00:00,Medium,3
-88,Penske Automotive,2025-05-10,Ford,Focus,2022,35501.0,5914,Cash,2025-05-10 10:55:00,Medium,3
-89,Manheim,2025-05-10,Honda,Accord,2023,,22370,Unknown,2025-05-10 11:37:00,,2
-90,Copart,2025-05-10,Chevrolet,Cruze,2023,18050.0,15673,Cash,2025-05-10 12:47:00,Low,2
-91,Manheim,2025-05-11,Toyota,Camry,2020,34159.0,9561,Credit,2025-05-11 17:26:00,Medium,5
-92,Lithia Motors,2025-05-11,Hyundai,Santa Fe,2016,107611.0,14300,Credit,2025-05-11 03:22:00,Very High,9
-93,Copart,2025-05-11,Toyota,RAV4,2023,76456.0,8200,Cash,2025-05-11 12:07:00,High,2
-94,CarMax,2025-05-11,Chevrolet,Equinox,2019,25780.0,15890,Credit,2025-05-11 11:05:00,Low,6
-95,Avis Budget Group,2025-05-11,Honda,Accord,2016,17115.0,16915,Cash,2025-05-11 21:26:00,Low,9
-96,Enterprise Holdings,2025-05-12,Ford,Escape,2022,31119.0,23106,Cash,2025-05-12 01:19:00,Medium,3
-97,Hertz Global Holdings,2025-05-12,Hyundai,Elantra,2020,15291.0,17607,Loan,2025-05-12 16:31:00,Low,5
-98,Penske Automotive,2025-05-12,Chevrolet,Cruze,2017,27657.0,19666,Cash,2025-05-12 20:35:00,Low,8
-99,Avis Budget Group,2025-05-13,Honda,CR-V,2023,68133.0,9858,Loan,2025-05-13 13:17:00,High,2
-100,AutoNation,2025-05-13,Ford,Focus,2015,30107.0,21824,Cash,2025-05-13 16:15:00,Medium,10
-101,Avis Budget Group,2025-05-13,Chevrolet,Equinox,2021,112486.0,9637,Credit,2025-05-13 03:08:00,Very High,4
-102,Enterprise Holdings,2025-05-13,Chevrolet,Cruze,2017,61848.0,8620,Unknown,2025-05-13 06:16:00,High,8
-103,Enterprise Holdings,2025-05-13,Toyota,RAV4,2016,,20700,Loan,2025-05-13 15:48:00,,9
-104,CarMax,2025-05-14,Toyota,RAV4,2015,36240.0,9031,Loan,2025-05-14 03:22:00,Medium,10
-105,Hertz Global Holdings,2025-05-14,Honda,Accord,2021,48914.0,6799,Loan,2025-05-14 19:59:00,Medium,4
-106,Lithia Motors,2025-05-14,Chevrolet,Malibu,2020,86004.0,18894,Credit,2025-05-14 17:00:00,High,5
-107,Hertz Global Holdings,2025-05-14,Ford,Fusion,2020,33674.0,14302,Credit,2025-05-14 11:40:00,Medium,5
-108,CarMax,2025-05-14,Honda,CR-V,2017,106182.0,21604,Unknown,2025-05-14 00:04:00,Very High,8
-109,Lithia Motors,2025-05-15,Honda,Accord,2022,77755.0,18564,Loan,2025-05-15 02:18:00,High,3
-110,Hertz Global Holdings,2025-05-15,Ford,Fusion,2016,65940.0,10767,Unknown,2025-05-15 19:55:00,High,9
-111,Copart,2025-05-15,Ford,Escape,2017,,8618,Cash,2025-05-15 13:14:00,,8
-112,Hertz Global Holdings,2025-05-15,Ford,Fusion,2015,14303.0,18016,Unknown,2025-05-15 21:53:00,Low,10
-113,Penske Automotive,2025-05-15,Honda,Civic,2023,70152.0,19406,Cash,2025-05-15 18:28:00,High,2
-114,AutoNation,2025-05-15,Hyundai,Santa Fe,2015,23152.0,20723,Credit,2025-05-15 10:58:00,Low,10
-115,Hertz Global Holdings,2025-05-16,Honda,Civic,2018,,7874,Cash,2025-05-16 23:53:00,,7
-116,Penske Automotive,2025-05-16,Chevrolet,Cruze,2019,84133.0,6296,Cash,2025-05-16 13:18:00,High,6
-117,CarMax,2025-05-16,Ford,Fusion,2017,118546.0,15515,Loan,2025-05-16 01:57:00,Very High,8
-118,Avis Budget Group,2025-05-16,Hyundai,Tucson,2021,24666.0,7922,Credit,2025-05-16 09:19:00,Low,4
-119,Unknown,2025-05-17,Toyota,Camry,2019,88753.0,12060,Loan,2025-05-17 10:08:00,High,6
-120,AutoNation,2025-05-17,Ford,Fusion,2022,19212.0,16970,Unknown,2025-05-17 00:14:00,Low,3
-121,Sonic Automotive,2025-05-17,Honda,CR-V,2015,20391.0,7459,Cash,2025-05-17 22:55:00,Low,10
-122,Penske Automotive,2025-05-17,Chevrolet,Malibu,2018,59483.0,17708,Loan,2025-05-17 04:22:00,Medium,7
-123,Hertz Global Holdings,2025-05-18,Ford,Escape,2023,20766.0,8779,Unknown,2025-05-18 21:40:00,Low,2
-124,Copart,2025-05-18,Chevrolet,Equinox,2015,64076.0,9208,Cash,2025-05-18 06:12:00,High,10
-125,Avis Budget Group,2025-05-18,Hyundai,Santa Fe,2016,11313.0,15999,Loan,2025-05-18 19:46:00,Low,9
-126,Lithia Motors,2025-05-18,Toyota,Camry,2022,70764.0,19828,Cash,2025-05-18 23:08:00,High,3
-127,Lithia Motors,2025-05-19,Chevrolet,Equinox,2017,15366.0,15201,Credit,2025-05-19 02:06:00,Low,8
-128,Lithia Motors,2025-05-19,Toyota,Camry,2022,101185.0,9373,Loan,2025-05-19 20:40:00,Very High,3
-129,Sonic Automotive,2025-05-19,Hyundai,Tucson,2015,110228.0,21742,Cash,2025-05-19 21:30:00,Very High,10
-130,Enterprise Holdings,2025-05-19,Chevrolet,Equinox,2015,91056.0,23258,Loan,2025-05-19 07:06:00,Very High,10
-131,Hertz Global Holdings,2025-05-20,Ford,Focus,2016,87759.0,17357,Loan,2025-05-20 18:56:00,High,9
-132,CarMax,2025-05-20,Hyundai,Elantra,2017,,15423,Cash,2025-05-20 10:21:00,,8
-133,Lithia Motors,2025-05-20,Hyundai,Santa Fe,2021,113378.0,23287,Unknown,2025-05-20 01:38:00,Very High,4
-134,Avis Budget Group,2025-05-20,Toyota,Camry,2018,44360.0,5434,Cash,2025-05-20 14:01:00,Medium,7
-135,Penske Automotive,2025-05-20,Chevrolet,Malibu,2023,31189.0,22202,Loan,2025-05-20 06:14:00,Medium,2
-136,Lithia Motors,2025-05-21,Toyota,Camry,2023,,9981,Loan,2025-05-21 12:19:00,,2
-137,Manheim,2025-05-21,Toyota,Camry,2020,103064.0,7849,Unknown,2025-05-21 15:17:00,Very High,5
-138,Hertz Global Holdings,2025-05-21,Chevrolet,Malibu,2015,21424.0,14705,Credit,2025-05-21 23:07:00,Low,10
-139,AutoNation,2025-05-21,Chevrolet,Cruze,2018,19100.0,5090,Cash,2025-05-21 11:33:00,Low,7
-140,Sonic Automotive,2025-05-22,Honda,Accord,2022,45800.0,5554,Loan,2025-05-22 04:22:00,Medium,3
-141,Sonic Automotive,2025-05-22,Chevrolet,Malibu,2019,17821.0,10045,Credit,2025-05-22 19:32:00,Low,6
-142,Hertz Global Holdings,2025-05-22,Hyundai,Tucson,2022,51915.0,14099,Cash,2025-05-22 06:14:00,Medium,3
-143,AutoNation,2025-05-22,Ford,Fusion,2017,106072.0,23399,Loan,2025-05-22 02:05:00,Very High,8
-144,Penske Automotive,2025-05-22,Ford,Escape,2016,22237.0,19362,Credit,2025-05-22 06:47:00,Low,9
-145,Manheim,2025-05-22,Hyundai,Tucson,2018,86290.0,11475,Cash,2025-05-22 06:55:00,High,7
-146,Enterprise Holdings,2025-05-23,Ford,Fusion,2019,,21906,Cash,2025-05-23 17:09:00,,6
-147,Avis Budget Group,2025-05-23,Toyota,Corolla,2019,22487.0,8020,Credit,2025-05-23 15:36:00,Low,6
-148,Enterprise Holdings,2025-05-23,Honda,Civic,2015,26532.0,8350,Loan,2025-05-23 15:24:00,Low,10
-149,AutoNation,2025-05-23,Ford,Escape,2017,,16479,Cash,2025-05-23 20:40:00,,8
-150,Manheim,2025-05-23,Hyundai,Santa Fe,2015,44739.0,18958,Credit,2025-05-23 10:54:00,Medium,10
-151,CarMax,2025-05-24,Honda,Accord,2022,71287.0,9616,Credit,2025-05-24 06:28:00,High,3
-152,AutoNation,2025-05-24,Toyota,Camry,2015,105441.0,18337,Loan,2025-05-24 17:17:00,Very High,10
-153,Manheim,2025-05-24,Toyota,RAV4,2022,,8085,Cash,2025-05-24 02:51:00,,3
-154,Avis Budget Group,2025-05-25,Toyota,Camry,2018,44544.0,16361,Loan,2025-05-25 00:36:00,Medium,7
-155,Avis Budget Group,2025-05-25,Chevrolet,Cruze,2021,35479.0,11257,Cash,2025-05-25 21:16:00,Medium,4
-156,Copart,2025-05-25,Ford,Escape,2016,44357.0,15006,Loan,2025-05-25 09:06:00,Medium,9
-157,Penske Automotive,2025-05-25,Ford,Fusion,2023,13822.0,18740,Loan,2025-05-25 21:42:00,Low,2
-158,Copart,2025-05-25,Ford,Focus,2019,77728.0,22519,Loan,2025-05-25 21:04:00,High,6
-159,Avis Budget Group,2025-05-26,Ford,Escape,2015,12675.0,23560,Cash,2025-05-26 22:02:00,Low,10
-160,Manheim,2025-05-26,Chevrolet,Equinox,2023,66009.0,20227,Credit,2025-05-26 08:37:00,High,2
-161,Enterprise Holdings,2025-05-26,Toyota,Camry,2015,25719.0,13398,Loan,2025-05-26 05:09:00,Low,10
-162,Enterprise Holdings,2025-05-26,Toyota,Corolla,2018,33588.0,7680,Credit,2025-05-26 19:17:00,Medium,7
-163,Lithia Motors,2025-05-27,Toyota,Camry,2023,107333.0,17979,Credit,2025-05-27 04:15:00,Very High,2
-164,Avis Budget Group,2025-05-27,Honda,CR-V,2023,10848.0,13502,Loan,2025-05-27 04:25:00,Low,2
-165,Lithia Motors,2025-05-27,Honda,CR-V,2023,,13913,Unknown,2025-05-27 19:21:00,,2
-166,Hertz Global Holdings,2025-05-27,Chevrolet,Malibu,2017,69336.0,19351,Cash,2025-05-27 06:37:00,High,8
-167,Avis Budget Group,2025-05-27,Chevrolet,Cruze,2018,69852.0,11284,Loan,2025-05-27 20:04:00,High,7
-168,CarMax,2025-05-27,Toyota,RAV4,2020,66846.0,17822,Unknown,2025-05-27 07:45:00,High,5
-169,Hertz Global Holdings,2025-05-28,Chevrolet,Cruze,2018,69339.0,5107,Credit,2025-05-28 13:35:00,High,7
-170,Hertz Global Holdings,2025-05-28,Hyundai,Elantra,2021,49707.0,22106,Cash,2025-05-28 20:17:00,Medium,4
-171,Penske Automotive,2025-05-28,Chevrolet,Equinox,2023,21811.0,12185,Loan,2025-05-28 08:46:00,Low,2
-172,Unknown,2025-05-28,Hyundai,Santa Fe,2019,11599.0,21148,Cash,2025-05-28 08:16:00,Low,6
-173,Copart,2025-05-28,Honda,CR-V,2018,69601.0,14628,Credit,2025-05-28 19:01:00,High,7
-174,CarMax,2025-05-28,Toyota,Camry,2016,33838.0,10339,Credit,2025-05-28 05:20:00,Medium,9
-175,Hertz Global Holdings,2025-05-29,Hyundai,Santa Fe,2019,107930.0,10753,Unknown,2025-05-29 13:49:00,Very High,6
-176,Sonic Automotive,2025-05-29,Hyundai,Tucson,2022,,23916,Credit,2025-05-29 00:17:00,,3
-177,Penske Automotive,2025-05-29,Toyota,RAV4,2021,,5737,Credit,2025-05-29 14:44:00,,4
-178,Enterprise Holdings,2025-05-29,Toyota,Camry,2021,70902.0,13748,Loan,2025-05-29 17:25:00,High,4
-179,Lithia Motors,2025-05-29,Honda,Civic,2019,111222.0,17634,Loan,2025-05-29 21:32:00,Very High,6
-180,Penske Automotive,2025-05-29,Ford,Focus,2020,33048.0,11995,Unknown,2025-05-29 05:26:00,Medium,5
-181,Manheim,2025-05-30,Honda,CR-V,2020,45980.0,10430,Cash,2025-05-30 14:08:00,Medium,5
-182,Hertz Global Holdings,2025-05-30,Honda,Accord,2020,72569.0,13176,Loan,2025-05-30 19:56:00,High,5
-183,Copart,2025-05-30,Honda,Accord,2017,43069.0,12808,Cash,2025-05-30 06:22:00,Medium,8
-184,Avis Budget Group,2025-05-31,Toyota,Camry,2021,116083.0,23805,Cash,2025-05-31 21:31:00,Very High,4
-185,Avis Budget Group,2025-05-31,Chevrolet,Equinox,2017,29496.0,17139,Unknown,2025-05-31 00:35:00,Low,8
-186,Manheim,2025-05-31,Honda,CR-V,2017,69863.0,13682,Cash,2025-05-31 02:20:00,High,8
+1,Unknown,2025-04-20,Ford,Focus,2023,26671.0,11759,Cash,2025-04-20 13:31:00,Low,2
+2,CarMax,2025-04-20,Chevrolet,Cruze,2015,62434.0,20512,Loan,2025-04-20 22:56:00,High,10
+3,Avis Budget Group,2025-04-21,Ford,Focus,2021,14448.0,22674,Credit,2025-04-21 07:32:00,Low,4
+4,AutoNation,2025-04-21,Ford,Escape,2021,78799.0,7680,Loan,2025-04-21 01:05:00,High,4
+5,Lithia Motors,2025-04-21,Toyota,Corolla,2019,50294.0,24701,Loan,2025-04-21 07:33:00,Medium,6
+6,Manheim,2025-04-21,Ford,Escape,2019,29282.0,19284,Cash,2025-04-21 18:20:00,Low,6
+7,CarMax,2025-04-22,Ford,Fusion,2017,,11351,Cash,2025-04-22 08:32:00,,8
+8,Penske Automotive,2025-04-22,Ford,Focus,2023,118893.0,20556,Credit,2025-04-22 17:57:00,Very High,2
+9,Copart,2025-04-22,Hyundai,Tucson,2022,72871.0,7361,Cash,2025-04-22 17:02:00,High,3
+10,AutoNation,2025-04-22,Chevrolet,Equinox,2015,58715.0,21068,Credit,2025-04-22 00:11:00,Medium,10
+11,Manheim,2025-04-22,Chevrolet,Cruze,2017,109344.0,14412,Credit,2025-04-22 21:05:00,Very High,8
+12,CarMax,2025-04-23,Hyundai,Santa Fe,2021,78414.0,12193,Cash,2025-04-23 21:24:00,High,4
+13,Copart,2025-04-23,Toyota,Camry,2019,92044.0,10791,Cash,2025-04-23 19:07:00,Very High,6
+14,Avis Budget Group,2025-04-23,Toyota,RAV4,2018,67192.0,15851,Credit,2025-04-23 14:04:00,High,7
+15,CarMax,2025-04-24,Honda,CR-V,2020,44416.0,14527,Loan,2025-04-24 06:45:00,Medium,5
+16,Lithia Motors,2025-04-24,Honda,CR-V,2016,110509.0,16411,Credit,2025-04-24 00:21:00,Very High,9
+17,CarMax,2025-04-24,Hyundai,Tucson,2015,52936.0,9966,Loan,2025-04-24 14:49:00,Medium,10
+18,Hertz Global Holdings,2025-04-24,Chevrolet,Equinox,2019,32678.0,5258,Credit,2025-04-24 17:30:00,Medium,6
+19,Copart,2025-04-24,Toyota,RAV4,2020,65445.0,10876,Cash,2025-04-24 00:18:00,High,5
+20,Hertz Global Holdings,2025-04-24,Hyundai,Tucson,2015,17586.0,16384,Loan,2025-04-24 12:31:00,Low,10
+21,Sonic Automotive,2025-04-25,Toyota,Corolla,2020,63848.0,19217,Cash,2025-04-25 04:54:00,High,5
+22,Hertz Global Holdings,2025-04-25,Hyundai,Elantra,2018,12247.0,13675,Credit,2025-04-25 01:13:00,Low,7
+23,Lithia Motors,2025-04-25,Honda,CR-V,2021,115399.0,12685,Unknown,2025-04-25 09:18:00,Very High,4
+24,Sonic Automotive,2025-04-25,Toyota,RAV4,2021,85323.0,16596,Credit,2025-04-25 04:37:00,High,4
+25,Avis Budget Group,2025-04-25,Chevrolet,Equinox,2015,,21982,Cash,2025-04-25 11:59:00,,10
+26,Avis Budget Group,2025-04-26,Honda,CR-V,2017,75757.0,8219,Loan,2025-04-26 09:25:00,High,8
+27,Penske Automotive,2025-04-26,Chevrolet,Malibu,2020,29112.0,20757,Credit,2025-04-26 00:10:00,Low,5
+28,AutoNation,2025-04-26,Toyota,RAV4,2018,,14511,Cash,2025-04-26 05:15:00,,7
+29,Lithia Motors,2025-04-26,Toyota,RAV4,2022,29057.0,5090,Cash,2025-04-26 18:43:00,Low,3
+30,CarMax,2025-04-27,Hyundai,Tucson,2018,42678.0,12388,Cash,2025-04-27 11:37:00,Medium,7
+31,Avis Budget Group,2025-04-27,Hyundai,Santa Fe,2015,29900.0,17028,Cash,2025-04-27 08:19:00,Low,10
+32,Unknown,2025-04-27,Ford,Escape,2016,63749.0,20278,Credit,2025-04-27 20:07:00,High,9
+33,AutoNation,2025-04-27,Hyundai,Elantra,2022,86330.0,16831,Credit,2025-04-27 17:38:00,High,3
+34,Penske Automotive,2025-04-27,Honda,Accord,2023,14012.0,13939,Cash,2025-04-27 04:17:00,Low,2
+35,Manheim,2025-04-27,Chevrolet,Equinox,2021,47313.0,14076,Cash,2025-04-27 18:10:00,Medium,4
+36,Copart,2025-04-28,Ford,Escape,2016,55930.0,11672,Loan,2025-04-28 17:29:00,Medium,9
+37,Enterprise Holdings,2025-04-28,Chevrolet,Equinox,2016,15874.0,21955,Loan,2025-04-28 02:00:00,Low,9
+38,Penske Automotive,2025-04-28,Chevrolet,Equinox,2016,68343.0,11506,Credit,2025-04-28 08:11:00,High,9
+39,Unknown,2025-04-28,Honda,CR-V,2022,33774.0,13943,Cash,2025-04-28 01:53:00,Medium,3
+40,Copart,2025-04-28,Ford,Escape,2019,76513.0,8297,Loan,2025-04-28 13:43:00,High,6
+41,AutoNation,2025-04-28,Honda,Accord,2017,113159.0,20524,Loan,2025-04-28 00:55:00,Very High,8
+42,Manheim,2025-04-29,Honda,Accord,2022,112568.0,19267,Cash,2025-04-29 17:46:00,Very High,3
+43,Manheim,2025-04-29,Honda,Accord,2019,11796.0,22172,Unknown,2025-04-29 16:43:00,Low,6
+44,Enterprise Holdings,2025-04-29,Chevrolet,Cruze,2016,42864.0,15650,Credit,2025-04-29 18:05:00,Medium,9
+45,Lithia Motors,2025-04-29,Ford,Escape,2022,83680.0,22350,Credit,2025-04-29 10:31:00,High,3
+46,Penske Automotive,2025-04-30,Toyota,Corolla,2021,113076.0,8612,Cash,2025-04-30 21:56:00,Very High,4
+47,Unknown,2025-04-30,Hyundai,Santa Fe,2021,60611.0,7153,Credit,2025-04-30 00:39:00,High,4
+48,Penske Automotive,2025-04-30,Chevrolet,Cruze,2017,119740.0,19430,Loan,2025-04-30 06:07:00,Very High,8
+49,Sonic Automotive,2025-04-30,Toyota,RAV4,2023,36194.0,16371,Credit,2025-04-30 07:53:00,Medium,2
+50,CarMax,2025-04-30,Honda,CR-V,2015,13761.0,19258,Credit,2025-04-30 07:20:00,Low,10
+51,Copart,2025-04-30,Ford,Focus,2016,40207.0,15883,Credit,2025-04-30 12:35:00,Medium,9
+52,Penske Automotive,2025-05-01,Hyundai,Santa Fe,2021,,5433,Loan,2025-05-01 19:12:00,,4
+53,Penske Automotive,2025-05-01,Honda,CR-V,2022,57653.0,9973,Credit,2025-05-01 04:02:00,Medium,3
+54,Sonic Automotive,2025-05-01,Toyota,RAV4,2015,47417.0,6404,Loan,2025-05-01 09:43:00,Medium,10
+55,Enterprise Holdings,2025-05-01,Ford,Focus,2015,46189.0,14728,Unknown,2025-05-01 22:23:00,Medium,10
+56,Avis Budget Group,2025-05-01,Hyundai,Elantra,2019,74253.0,10376,Credit,2025-05-01 17:46:00,High,6
+57,Hertz Global Holdings,2025-05-02,Chevrolet,Malibu,2022,,24614,Cash,2025-05-02 06:54:00,,3
+58,CarMax,2025-05-02,Ford,Focus,2019,72398.0,13213,Credit,2025-05-02 02:37:00,High,6
+59,Manheim,2025-05-02,Chevrolet,Equinox,2020,,20442,Loan,2025-05-02 19:33:00,,5
+60,Avis Budget Group,2025-05-02,Honda,CR-V,2016,81514.0,19430,Cash,2025-05-02 02:50:00,High,9
+61,Sonic Automotive,2025-05-03,Honda,Accord,2020,35265.0,18344,Cash,2025-05-03 08:58:00,Medium,5
+62,Enterprise Holdings,2025-05-03,Ford,Fusion,2023,94897.0,9058,Cash,2025-05-03 03:04:00,Very High,2
+63,Copart,2025-05-03,Chevrolet,Equinox,2022,86066.0,5794,Loan,2025-05-03 01:34:00,High,3
+64,Penske Automotive,2025-05-03,Honda,CR-V,2016,79153.0,21069,Cash,2025-05-03 04:56:00,High,9
+65,Penske Automotive,2025-05-03,Honda,CR-V,2020,36088.0,9418,Credit,2025-05-03 12:32:00,Medium,5
+66,Sonic Automotive,2025-05-04,Toyota,Corolla,2020,18059.0,6670,Loan,2025-05-04 14:46:00,Low,5
+67,Sonic Automotive,2025-05-04,Hyundai,Tucson,2018,26627.0,23757,Loan,2025-05-04 03:03:00,Low,7
+68,Hertz Global Holdings,2025-05-04,Hyundai,Tucson,2017,64361.0,10219,Credit,2025-05-04 01:45:00,High,8
+69,Hertz Global Holdings,2025-05-04,Chevrolet,Cruze,2023,67942.0,14927,Loan,2025-05-04 07:52:00,High,2
+70,Avis Budget Group,2025-05-04,Honda,Accord,2021,,23447,Unknown,2025-05-04 23:50:00,,4
+71,Lithia Motors,2025-05-05,Hyundai,Elantra,2018,74660.0,12215,Unknown,2025-05-05 06:51:00,High,7
+72,Lithia Motors,2025-05-05,Honda,CR-V,2021,32466.0,22136,Cash,2025-05-05 12:05:00,Medium,4
+73,Unknown,2025-05-05,Chevrolet,Equinox,2020,51449.0,22006,Credit,2025-05-05 07:38:00,Medium,5
+74,Enterprise Holdings,2025-05-05,Ford,Focus,2018,68941.0,16015,Unknown,2025-05-05 01:26:00,High,7
+75,Hertz Global Holdings,2025-05-06,Chevrolet,Cruze,2019,61665.0,12536,Credit,2025-05-06 04:04:00,High,6
+76,Hertz Global Holdings,2025-05-06,Chevrolet,Malibu,2017,60836.0,6470,Loan,2025-05-06 21:55:00,High,8
+77,Copart,2025-05-06,Toyota,Corolla,2022,115025.0,21070,Credit,2025-05-06 06:24:00,Very High,3
+78,Copart,2025-05-07,Honda,CR-V,2022,55062.0,7688,Loan,2025-05-07 11:13:00,Medium,3
+79,Sonic Automotive,2025-05-07,Hyundai,Elantra,2020,103609.0,23279,Loan,2025-05-07 01:28:00,Very High,5
+80,Copart,2025-05-07,Chevrolet,Cruze,2016,23771.0,17074,Cash,2025-05-07 15:18:00,Low,9
+81,Sonic Automotive,2025-05-07,Hyundai,Elantra,2019,49408.0,9325,Credit,2025-05-07 01:02:00,Medium,6
+82,Hertz Global Holdings,2025-05-08,Toyota,Corolla,2020,89043.0,19483,Credit,2025-05-08 22:03:00,High,5
+83,Enterprise Holdings,2025-05-08,Ford,Fusion,2021,47685.0,24915,Loan,2025-05-08 12:17:00,Medium,4
+84,AutoNation,2025-05-08,Toyota,Camry,2021,36032.0,8573,Credit,2025-05-08 17:44:00,Medium,4
+85,Lithia Motors,2025-05-08,Honda,CR-V,2015,36220.0,19872,Loan,2025-05-08 11:34:00,Medium,10
+86,Penske Automotive,2025-05-09,Chevrolet,Malibu,2023,95948.0,23352,Cash,2025-05-09 09:08:00,Very High,2
+87,Unknown,2025-05-09,Hyundai,Tucson,2023,53094.0,9039,Loan,2025-05-09 03:51:00,Medium,2
+88,Lithia Motors,2025-05-09,Honda,Accord,2016,50226.0,21928,Cash,2025-05-09 05:27:00,Medium,9
+89,Lithia Motors,2025-05-09,Honda,Civic,2021,100650.0,22446,Unknown,2025-05-09 15:50:00,Very High,4
+90,Avis Budget Group,2025-05-09,Chevrolet,Malibu,2021,80065.0,9425,Cash,2025-05-09 16:35:00,High,4
+91,CarMax,2025-05-10,Chevrolet,Equinox,2016,107039.0,18785,Unknown,2025-05-10 22:55:00,Very High,9
+92,Unknown,2025-05-10,Hyundai,Santa Fe,2021,24489.0,22236,Credit,2025-05-10 14:50:00,Low,4
+93,AutoNation,2025-05-10,Ford,Focus,2017,,9273,Loan,2025-05-10 16:07:00,,8
+94,Sonic Automotive,2025-05-10,Toyota,Corolla,2015,,18666,Unknown,2025-05-10 17:46:00,,10
+95,Sonic Automotive,2025-05-10,Hyundai,Santa Fe,2015,78406.0,17698,Credit,2025-05-10 21:19:00,High,10
+96,Avis Budget Group,2025-05-10,Toyota,RAV4,2017,32521.0,18883,Credit,2025-05-10 20:16:00,Medium,8
+97,Penske Automotive,2025-05-11,Hyundai,Santa Fe,2017,76084.0,9185,Credit,2025-05-11 11:52:00,High,8
+98,Manheim,2025-05-11,Toyota,RAV4,2017,82359.0,18580,Loan,2025-05-11 00:05:00,High,8
+99,Penske Automotive,2025-05-11,Honda,Civic,2021,63495.0,10601,Credit,2025-05-11 09:51:00,High,4
+100,Sonic Automotive,2025-05-11,Ford,Fusion,2023,118624.0,11062,Loan,2025-05-11 06:56:00,Very High,2
+101,Copart,2025-05-12,Honda,CR-V,2023,41836.0,23157,Loan,2025-05-12 06:00:00,Medium,2
+102,AutoNation,2025-05-12,Honda,Civic,2021,32977.0,20344,Cash,2025-05-12 15:35:00,Medium,4
+103,Lithia Motors,2025-05-12,Ford,Fusion,2022,76796.0,7718,Credit,2025-05-12 15:43:00,High,3
+104,Penske Automotive,2025-05-13,Ford,Fusion,2019,42406.0,17797,Loan,2025-05-13 04:09:00,Medium,6
+105,Enterprise Holdings,2025-05-13,Honda,Accord,2015,41522.0,15648,Credit,2025-05-13 22:24:00,Medium,10
+106,AutoNation,2025-05-13,Hyundai,Elantra,2019,17443.0,15104,Loan,2025-05-13 05:13:00,Low,6
+107,Unknown,2025-05-13,Chevrolet,Cruze,2017,29488.0,10222,Loan,2025-05-13 02:21:00,Low,8
+108,AutoNation,2025-05-13,Hyundai,Santa Fe,2021,119033.0,14391,Cash,2025-05-13 06:17:00,Very High,4
+109,Avis Budget Group,2025-05-14,Honda,Accord,2022,,12513,Credit,2025-05-14 23:26:00,,3
+110,Unknown,2025-05-14,Chevrolet,Malibu,2016,62956.0,15329,Unknown,2025-05-14 17:48:00,High,9
+111,Penske Automotive,2025-05-14,Honda,CR-V,2015,,10692,Cash,2025-05-14 19:51:00,,10
+112,Manheim,2025-05-14,Honda,Accord,2022,,19182,Loan,2025-05-14 03:00:00,,3
+113,Copart,2025-05-15,Ford,Escape,2018,48012.0,12366,Credit,2025-05-15 16:56:00,Medium,7
+114,CarMax,2025-05-15,Chevrolet,Cruze,2022,105611.0,10278,Cash,2025-05-15 11:04:00,Very High,3
+115,CarMax,2025-05-15,Toyota,Corolla,2017,21695.0,19059,Cash,2025-05-15 15:04:00,Low,8
+116,Lithia Motors,2025-05-15,Ford,Fusion,2017,77288.0,19162,Credit,2025-05-15 19:41:00,High,8
+117,Hertz Global Holdings,2025-05-15,Honda,Civic,2015,77918.0,11782,Loan,2025-05-15 08:12:00,High,10
+118,Unknown,2025-05-16,Hyundai,Tucson,2018,18083.0,21501,Credit,2025-05-16 00:01:00,Low,7
+119,Penske Automotive,2025-05-16,Toyota,RAV4,2020,96250.0,22833,Credit,2025-05-16 10:55:00,Very High,5
+120,AutoNation,2025-05-16,Honda,Accord,2018,37781.0,21764,Loan,2025-05-16 21:21:00,Medium,7
+121,Unknown,2025-05-16,Chevrolet,Cruze,2019,11866.0,13280,Loan,2025-05-16 03:05:00,Low,6
+122,CarMax,2025-05-17,Hyundai,Elantra,2023,32591.0,7634,Cash,2025-05-17 09:10:00,Medium,2
+123,CarMax,2025-05-17,Hyundai,Santa Fe,2017,70330.0,15205,Credit,2025-05-17 17:01:00,High,8
+124,Manheim,2025-05-17,Chevrolet,Cruze,2018,42610.0,21059,Unknown,2025-05-17 15:03:00,Medium,7
+125,Penske Automotive,2025-05-17,Honda,Civic,2023,28899.0,8207,Unknown,2025-05-17 18:56:00,Low,2
+126,Lithia Motors,2025-05-17,Toyota,Camry,2015,38376.0,17883,Cash,2025-05-17 16:48:00,Medium,10
+127,Unknown,2025-05-18,Hyundai,Santa Fe,2023,108150.0,18096,Credit,2025-05-18 14:03:00,Very High,2
+128,Enterprise Holdings,2025-05-18,Toyota,Corolla,2023,105290.0,16025,Loan,2025-05-18 14:06:00,Very High,2
+129,Sonic Automotive,2025-05-18,Hyundai,Elantra,2023,,24184,Cash,2025-05-18 22:00:00,,2
+130,Hertz Global Holdings,2025-05-19,Hyundai,Santa Fe,2016,12110.0,9615,Loan,2025-05-19 17:45:00,Low,9
+131,AutoNation,2025-05-19,Honda,Accord,2021,21911.0,12954,Cash,2025-05-19 01:06:00,Low,4
+132,Unknown,2025-05-19,Ford,Focus,2018,86681.0,5515,Cash,2025-05-19 21:51:00,High,7
+133,Manheim,2025-05-19,Hyundai,Tucson,2023,,11680,Cash,2025-05-19 10:54:00,,2
+134,Manheim,2025-05-19,Toyota,Camry,2020,22165.0,12142,Loan,2025-05-19 12:36:00,Low,5
+135,Unknown,2025-05-19,Chevrolet,Cruze,2023,77596.0,20581,Loan,2025-05-19 02:34:00,High,2
+136,Sonic Automotive,2025-05-20,Hyundai,Santa Fe,2019,17397.0,14218,Loan,2025-05-20 23:43:00,Low,6
+137,Avis Budget Group,2025-05-20,Chevrolet,Equinox,2016,103227.0,19475,Cash,2025-05-20 04:28:00,Very High,9
+138,Copart,2025-05-20,Chevrolet,Cruze,2016,50244.0,21063,Loan,2025-05-20 21:41:00,Medium,9
+139,Enterprise Holdings,2025-05-20,Hyundai,Tucson,2019,75459.0,5817,Unknown,2025-05-20 06:29:00,High,6
+140,Manheim,2025-05-21,Honda,Civic,2020,81961.0,17243,Credit,2025-05-21 04:23:00,High,5
+141,AutoNation,2025-05-21,Ford,Fusion,2016,108456.0,21575,Unknown,2025-05-21 05:47:00,Very High,9
+142,Copart,2025-05-21,Honda,Accord,2019,10743.0,20634,Loan,2025-05-21 10:34:00,Low,6
+143,Hertz Global Holdings,2025-05-21,Chevrolet,Malibu,2022,35785.0,10332,Credit,2025-05-21 08:11:00,Medium,3
+144,Avis Budget Group,2025-05-22,Toyota,Corolla,2020,94096.0,17049,Loan,2025-05-22 05:58:00,Very High,5
+145,AutoNation,2025-05-22,Ford,Focus,2020,48058.0,24466,Unknown,2025-05-22 21:16:00,Medium,5
+146,Avis Budget Group,2025-05-22,Hyundai,Santa Fe,2018,44731.0,17288,Loan,2025-05-22 14:58:00,Medium,7
+147,Penske Automotive,2025-05-22,Hyundai,Santa Fe,2017,51069.0,24828,Cash,2025-05-22 09:29:00,Medium,8
+148,AutoNation,2025-05-22,Hyundai,Tucson,2015,64352.0,23595,Cash,2025-05-22 02:16:00,High,10
+149,Avis Budget Group,2025-05-22,Ford,Escape,2016,22378.0,23861,Cash,2025-05-22 03:24:00,Low,9
+150,Hertz Global Holdings,2025-05-23,Chevrolet,Malibu,2018,96671.0,14243,Unknown,2025-05-23 17:54:00,Very High,7
+151,Lithia Motors,2025-05-23,Hyundai,Elantra,2015,26757.0,14577,Credit,2025-05-23 20:17:00,Low,10
+152,Sonic Automotive,2025-05-23,Chevrolet,Cruze,2016,74039.0,8764,Cash,2025-05-23 18:04:00,High,9
+153,Copart,2025-05-23,Chevrolet,Malibu,2020,67554.0,19025,Cash,2025-05-23 10:12:00,High,5
+154,Copart,2025-05-23,Chevrolet,Equinox,2022,103188.0,9556,Loan,2025-05-23 11:43:00,Very High,3
+155,Copart,2025-05-23,Ford,Fusion,2017,117911.0,17678,Loan,2025-05-23 08:25:00,Very High,8
+156,AutoNation,2025-05-24,Hyundai,Tucson,2023,43456.0,5465,Credit,2025-05-24 00:39:00,Medium,2
+157,Penske Automotive,2025-05-24,Honda,Civic,2021,80927.0,13453,Credit,2025-05-24 07:23:00,High,4
+158,Enterprise Holdings,2025-05-24,Ford,Escape,2016,98528.0,16067,Unknown,2025-05-24 09:11:00,Very High,9
+159,Manheim,2025-05-24,Honda,Civic,2021,74124.0,20191,Credit,2025-05-24 06:54:00,High,4
+160,Avis Budget Group,2025-05-25,Toyota,Camry,2020,87125.0,15569,Cash,2025-05-25 15:44:00,High,5
+161,Unknown,2025-05-25,Hyundai,Elantra,2022,12000.0,9303,Loan,2025-05-25 06:45:00,Low,3
+162,AutoNation,2025-05-25,Honda,Accord,2022,49730.0,12066,Cash,2025-05-25 16:40:00,Medium,3
+163,Avis Budget Group,2025-05-25,Hyundai,Tucson,2018,107126.0,18711,Loan,2025-05-25 07:09:00,Very High,7
+164,Sonic Automotive,2025-05-25,Hyundai,Tucson,2019,94949.0,21780,Credit,2025-05-25 14:06:00,Very High,6
+165,Sonic Automotive,2025-05-26,Honda,Civic,2023,20442.0,15718,Loan,2025-05-26 18:09:00,Low,2
+166,Lithia Motors,2025-05-26,Toyota,RAV4,2023,52582.0,19562,Loan,2025-05-26 07:23:00,Medium,2
+167,Unknown,2025-05-26,Hyundai,Santa Fe,2019,59073.0,21066,Cash,2025-05-26 11:05:00,Medium,6
+168,Copart,2025-05-26,Chevrolet,Equinox,2020,89901.0,10528,Unknown,2025-05-26 02:56:00,High,5
+169,Unknown,2025-05-26,Ford,Focus,2021,72889.0,13152,Credit,2025-05-26 12:16:00,High,4
+170,Manheim,2025-05-26,Ford,Escape,2015,47201.0,22899,Loan,2025-05-26 20:55:00,Medium,10
+171,Avis Budget Group,2025-05-27,Chevrolet,Malibu,2022,,11438,Loan,2025-05-27 23:59:00,,3
+172,Copart,2025-05-27,Chevrolet,Equinox,2022,47441.0,9140,Cash,2025-05-27 05:48:00,Medium,3
+173,Avis Budget Group,2025-05-27,Ford,Fusion,2023,44158.0,24793,Credit,2025-05-27 15:56:00,Medium,2
+174,Enterprise Holdings,2025-05-27,Ford,Focus,2021,82426.0,13908,Cash,2025-05-27 23:34:00,High,4
+175,Enterprise Holdings,2025-05-28,Toyota,Camry,2016,72388.0,15186,Loan,2025-05-28 19:05:00,High,9
+176,CarMax,2025-05-28,Honda,CR-V,2015,,5080,Loan,2025-05-28 03:35:00,,10
+177,Manheim,2025-05-28,Ford,Focus,2018,24623.0,18238,Cash,2025-05-28 00:08:00,Low,7
+178,AutoNation,2025-05-28,Toyota,Camry,2015,58195.0,13379,Loan,2025-05-28 21:31:00,Medium,10
+179,Penske Automotive,2025-05-28,Ford,Escape,2023,40681.0,16270,Unknown,2025-05-28 12:10:00,Medium,2
+180,Avis Budget Group,2025-05-28,Hyundai,Elantra,2022,38010.0,17479,Credit,2025-05-28 09:40:00,Medium,3
+181,Unknown,2025-05-29,Hyundai,Santa Fe,2022,90843.0,21651,Cash,2025-05-29 15:48:00,Very High,3
+182,Manheim,2025-05-29,Hyundai,Tucson,2015,109948.0,7930,Credit,2025-05-29 20:24:00,Very High,10
+183,AutoNation,2025-05-29,Hyundai,Elantra,2017,,19769,Cash,2025-05-29 16:40:00,,8
+184,Hertz Global Holdings,2025-05-30,Hyundai,Tucson,2015,64070.0,19340,Credit,2025-05-30 23:04:00,High,10
+185,Manheim,2025-05-30,Toyota,RAV4,2016,36581.0,21720,Loan,2025-05-30 00:20:00,Medium,9
+186,Avis Budget Group,2025-05-30,Honda,Accord,2022,77462.0,15063,Cash,2025-05-30 10:18:00,High,3
+187,Sonic Automotive,2025-05-30,Chevrolet,Malibu,2021,92959.0,19032,Loan,2025-05-30 03:53:00,Very High,4
+188,Unknown,2025-05-30,Chevrolet,Equinox,2019,57845.0,10589,Cash,2025-05-30 11:39:00,Medium,6
+189,Sonic Automotive,2025-05-31,Toyota,Camry,2019,29172.0,23312,Credit,2025-05-31 07:05:00,Low,6
+190,Sonic Automotive,2025-05-31,Ford,Focus,2017,56145.0,16695,Cash,2025-05-31 01:53:00,Medium,8
+191,Sonic Automotive,2025-05-31,Honda,Civic,2017,43525.0,13340,Credit,2025-05-31 23:46:00,Medium,8
+192,Sonic Automotive,2025-05-31,Hyundai,Elantra,2020,22328.0,18245,Loan,2025-05-31 10:08:00,Low,5
