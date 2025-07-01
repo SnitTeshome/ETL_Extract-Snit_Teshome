@@ -200,7 +200,11 @@ _The output files were saved in Parquet format within the current repository dir
 ![Full Extraction Preview](image.png)
 
 ### *Incremental Extraction*
-![Incremental Extraction Preview](image-1.png)
+## *Full Extraction*
+![Full Extraction Preview](image.png)
+
+### *Incremental Extraction*
+![Incremental Extraction Preview](Output_images/image-1.png)
 
 ---
 
@@ -217,6 +221,23 @@ _The output files were saved in Parquet format within the current repository dir
 
 ### 4. *Key Restructuring*
 ![Surrogate Key Restructuring](image-6.png)
+
+
+---
+
+## *Output for Transformation*
+
+### 1. *Data Cleaning*
+![Missing Value Handling](Output _images/image-3.png)
+
+### 2. *Categorize Mileage*
+![Mileage Categorization](Output _images/image-4.png)
+
+### 3. *Enrichment*
+![Feature Enrichment Output](Output _images/image-5.png)
+
+### 4. *Key Restructuring*
+![Surrogate Key Restructuring](Output _images/image-6.png)
 
 
 ## *How to Reproduce*
