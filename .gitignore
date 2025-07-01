@@ -25,6 +25,3 @@ last_extraction.txt
 
 # Ignore the loaded_data folder
 loaded_data/
-# Ignore output images
-*.png
-Output_images/
